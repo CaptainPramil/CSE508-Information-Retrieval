@@ -1,7 +1,6 @@
 # CSE508-Information-Retrieval
-Assignment1
-                                                          
-
+                                              CSE508: Information Retrieval
+                                                      Assignment 1
 Pre-processing:
 
 Tokenization: 
@@ -25,6 +24,8 @@ Creation of Inverted Index:
 
 createDictionary(): Removed special characters from sentences and created  terms to docID mapping.
 
+
+
 Query Processing:
 
 Function Process the given query
@@ -37,5 +38,15 @@ notOR: Uses doclist as a universal set and calculates negation of 2nd posting li
 process: Takes the 2 posting list and boolean expression needed, and applies the appropriate function.
 
 User gives a query and expression as input, sets the first word and extracts its posting list, and loops over the input query and expression. Evaluate the posting lists of each input and evaluate the expression, respectively. 
+
+Assumption : 
+Preprocessed file is saved to RT file and from that RT file comparisons have been done.
+Punctuation, tokenization and stop words are used during pre processing
+Two coding files are made
+Preprocessing file
+Query File 
+  
+
+                                                        
 
 
